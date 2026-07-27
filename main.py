@@ -12,7 +12,7 @@ from utils.db import get_db
 # Public domain shown/used in every generated Lecture/Quiz link.
 # Hardcoded (not read from env) on purpose — this is the ONLY line to edit
 # if this service's Render domain ever changes.
-PUBLIC_BASE_URL = "https://smartyms-toxic-test-system.onrender.com"
+PUBLIC_BASE_URL = "https://smartyms-toxic-live-class-system.onrender.com"
 
 # ─── Server-side Admin Auth (keys never reach the browser) ────────────────
 OWNER_NAME = "ViPvxMS10BRO"
