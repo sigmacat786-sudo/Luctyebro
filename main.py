@@ -4,7 +4,7 @@ from flask import Flask, render_template
 
 # ─── Configuration ──────────────────────────────────────────────────────────
 # Source quiz URL — shown openly to users (not hidden/cloaked).
-QUIZ_URL = "https://pwthor.live/live?batchId=6a38f418034b8baed508e6e4&SubjectId=6a479c471d1332c76f9fdb62&ChildId=6a5b682384d4d98c2fe95ead&startTime=2026-07-27T03:40:00.000Z&Type=awsVideo"
+QUIZ_URL = "https://vidcloud.eu.org/play.php?batch_id=6a38f418034b8baed508e6e4&subject_id=6a48b4351b64047a0b9fe3dd&topic_id=6a491789704bec63c66cae64&video_id=6a669b244577223c93f7af1d&video_name=%E0%A4%B5%E0%A4%BF%E0%A4%B2%E0%A4%AF%E0%A4%A8+03+%3A+%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%AF%E0%A4%A8%E0%A4%BF%E0%A4%95+%E0%A4%B8%E0%A4%82%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8+%E0%A4%95%E0%A5%87+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE+%7C%7C+DPP+will+be+provided+soon&video_img=&video_type=live&play_type=Lecture"
 
 # ─── Flask app ──────────────────────────────────────────────────────────────
 flask_app = Flask(__name__)
