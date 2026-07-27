@@ -4,7 +4,7 @@ from flask import Flask, render_template
 
 # ─── Configuration ──────────────────────────────────────────────────────────
 # Source quiz URL — shown openly to users (not hidden/cloaked).
-QUIZ_URL = "https://s3-cdn.samfygros.com/batch-test/index.php?batchId=6a38f418034b8baed508e6e4&testId=6a64654ddaa4c5ff3482bb00&testName=Practice%20Test-01"
+QUIZ_URL = "https://pwthor.live/live?batchId=6a38f418034b8baed508e6e4&SubjectId=6a479c471d1332c76f9fdb62&ChildId=6a5b682384d4d98c2fe95ead&startTime=2026-07-27T03:40:00.000Z&Type=awsVideo"
 
 # ─── Flask app ──────────────────────────────────────────────────────────────
 flask_app = Flask(__name__)
